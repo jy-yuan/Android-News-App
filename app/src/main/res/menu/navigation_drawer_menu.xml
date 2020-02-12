@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/night_mode"
+            android:title="夜间模式"
+            android:icon="@drawable/ic_moon"
+            android:actionLayout="@layout/switch_item"
+            app:showAsAction="always"
+            android:checkable="false"
+            />
+
+        <item
+            android:id="@+id/main_page"
+            android:title="首页"
+            android:icon="@drawable/ic_widgets_black_24dp"/>
+
+        <item
+            android:id="@+id/suggest_page"
+            android:title="推荐"
+            android:icon="@drawable/ic_tuijian"/>
+
+        <item
+            android:id="@+id/fav_page"
+            android:title="收藏"
+            android:icon="@drawable/ic_shoucang"/>
+
+        <item
+            android:id="@+id/history_page"
+            android:title="历史"
+            android:icon="@drawable/ic_lishi"/>
+
+        <item
+            android:id="@+id/block_list"
+            android:title="黑名单"
+            android:icon="@drawable/ic_block"/>
+
+
+        <group></group>
+
+        <item
+            android:id="@+id/yule_entry"
+            android:title="娱乐"
+            android:icon="@drawable/ic_yule"/>
+
+        <item
+            android:id="@+id/junshi_entry"
+            android:title="军事"
+            android:icon="@drawable/ic_junshi"
+            />
+
+        <item
+            android:id="@+id/jiaoyu_entry"
+            android:title="教育"
+            android:icon="@drawable/ic_jiaoyu"/>
+
+        <item
+            android:id="@+id/wenhua_entry"
+            android:title="文化"
+            android:icon="@drawable/ic_wenhua"/>
+
+        <item
+            android:id="@+id/jiankang_entry"
+            android:title="健康"
+            android:icon="@drawable/ic_jiankang"/>
+
+        <item
+            android:id="@+id/caijing_entry"
+            android:title="财经"
+            android:icon="@drawable/ic_caijing"/>
+
+        <item
+            android:id="@+id/tiyu_entry"
+            android:title="体育"
+            android:icon="@drawable/ic_tiyu"/>
+
+        <item
+            android:id="@+id/qiche_entry"
+            android:title="汽车"
+            android:icon="@drawable/ic_qiche"/>
+
+        <item
+            android:id="@+id/keji_entry"
+            android:title="科技"
+            android:icon="@drawable/ic_keji"/>
+
+        <item
+            android:id="@+id/shehui_entry"
+            android:title="社会"
+            android:icon="@drawable/ic_shehui"/>
+    </group>
+
+</menu>
